@@ -1,0 +1,140 @@
+.mais_vendidos_titulo {
+    background-color: var(--branco);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--laranja);   
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1em 0 .5em 0;    
+}
+.card_autora-do-mes {
+    background-color: var(--branco);
+    margin: 1em;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px #00000090;
+}
+.descricao_autora {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.autora-do-mes_titulo {
+    font-weight: 700;
+    color: var(--laranja);
+    margin-top: 5px;
+}
+.autora-do-mes_nome {
+    font-size: 18px;
+    font-weight: 700;
+    margin: .8em 0;
+}
+.autora-do-mes_descricao {
+    font-size: 14px;
+    font-weight: 400;
+}
+.botoes_autora-do-mes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1em;
+    padding-bottom: 10px;
+}
+.autora-do-mes_lista {
+    display: flex;
+    align-items: center;
+
+}
+.autora-do-mes_link {
+    text-decoration: none;
+    background-color: var(--laranja);
+    color: var(--branco);
+    padding: 10px;
+    width: 140px;
+    text-align: center;
+}
+
+/* inicio das configurações para resolução de 1024px */
+@media screen and (min-width: 1024px) {
+    .mais_vendidos_titulo {
+        font-size: 26px;
+    }
+    .swiper-pagination {
+        padding: 1em 0 1em 0;
+    }
+    .swiper {
+        width: 60%;
+    }
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+    .card {
+        background-color: var(--branco);
+        border-radius: 5px;
+        box-shadow: 0 4px 4px #00000090;
+        width: 50%;
+        margin: 2em auto;        
+    }
+    .card_autora-do-mes {
+        background-color: var(--branco);
+        border-radius: 5px;
+        box-shadow: 0 4px 4px #00000090;
+        width: 50%;
+        margin: 2em auto;        
+    }
+    .autora-do-mes_link {
+        width: 140px;            
+    }
+    .descricao_autora {
+        padding: 1em 1em 0 1em;
+    }
+
+}
+
+/* inicio das configurações para resolução de 1728px */
+@media screen and (min-width: 1728px) {
+    
+    .mais_vendidos_titulo {
+        font-size: 32px;
+    }
+
+    .card_container {
+        display: flex;
+        margin: 3em 10vw 4em 10vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 0;
+    }
+
+    .swiper {
+        margin-right: 50px;
+    }
+    .swiper-slide img {
+        width: 70%;
+    }
+    
+    .autora-do-mes_titulo{
+        font-size: 32px;
+    }
+    
+    .utora-do-mes_nome {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .autora-do-mes_descricao {
+        font-size: 18px;
+    }
+    .descricao {
+        margin: 1em;
+        padding-bottom: 30px;
+    }
+
+    .autora-do-mes_link {
+        width: 23%;
+        padding-top: 2px;
+    }
+    
+}

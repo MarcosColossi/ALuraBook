@@ -1,0 +1,20 @@
+hr {
+    margin: 0;
+}
+.rodape {
+    padding: 1em;
+    background: var(--branco);
+
+}
+.rodape_titulo {
+    color: #000000;
+    font-weight: 400;
+}
+
+/* inicio das configurações para resolução de 1728px */
+@media screen and (min-width: 1728px) {
+    .lista_rodape {
+        border-left: 1px solid var(--azul);
+        padding-left: 20px;
+    }
+}

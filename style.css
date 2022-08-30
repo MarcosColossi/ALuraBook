@@ -2,24 +2,36 @@
 @import url("css/estilos/cabecalho.css");
 @import url("css/estilos/banner.css");
 @import url("css/estilos/carrocel.css");
+@import url("css/estilos/carrocel_mais_vendidos.css");
+@import url("css/estilos/topicos_contatos.css");
+@import url("css/estilos/rodape.css");
 
 /* imports de fontes do google fonts usadas no projeto */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 /*font-family: 'Poppins', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+/* font-family: 'Josefin Sans', sans-serif; */
+
 
 /* Variáveis do projeto */
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
     --laranja: #EB9B00;
+    --azul: #002F52;
+    --preto: #000000;
+    --cinza: #858585;
+    --fonte-link: #474646;
     --fonte-padrao: 'Poppins', sans-serif;
+    --fonte-secundaria:'Josefin Sans', sans-serif;
     --azul-degrade:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    
 }
-
-
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-padrao);
     font-size: 16px;
     font-weight: 400;
+
 }
